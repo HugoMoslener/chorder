@@ -1,7 +1,7 @@
-import { useState } from 'react';
-import { View, Text, StyleSheet, FlatList, TouchableOpacity, ScrollView, Alert } from 'react-native';
-import { useApp, getUser } from '@/data/app-context';
+import { getUser, useApp } from '@/data/app-context';
 import { CATEGORIES } from '@/data/mock-data';
+import { useState } from 'react';
+import { Alert, FlatList, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
 export default function AvailableChoresScreen() {
   const { currentUser, chores, setChores } = useApp();
@@ -79,7 +79,7 @@ export default function AvailableChoresScreen() {
 
 const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: '#f8f9fa' },
-  filterRow: { flexGrow: 0, paddingHorizontal: 12, paddingVertical: 12 },
+  filterRow: { flexGrow: 0, flexShrink: 0, paddingHorizontal: 12, paddingVertical: 12 },
   filterChip: {
     paddingHorizontal: 16,
     paddingVertical: 8,

@@ -11,9 +11,9 @@ export default function LoginScreen() {
     const user = MOCK_USERS.find((u) => u.role === role)!;
     setCurrentUser(user);
     if (role === 'requester') {
-      router.replace('/(requester)');
+      router.replace('/requester');
     } else {
-      router.replace('/(tasker)');
+      router.replace('/tasker');
     }
   };
 

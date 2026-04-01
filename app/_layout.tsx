@@ -8,8 +8,8 @@ export default function RootLayout() {
     <AppProvider>
       <Stack screenOptions={{ headerShown: false }}>
         <Stack.Screen name="index" />
-        <Stack.Screen name="(requester)" />
-        <Stack.Screen name="(tasker)" />
+        <Stack.Screen name="requester" />
+        <Stack.Screen name="tasker" />
       </Stack>
       <StatusBar style="dark" />
     </AppProvider>

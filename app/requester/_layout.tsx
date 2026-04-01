@@ -1,14 +1,7 @@
-import { Tabs, Redirect } from 'expo-router';
+import { Tabs } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
-import { useApp } from '@/data/app-context';
 
 export default function RequesterLayout() {
-  const { currentUser } = useApp();
-
-  if (!currentUser) {
-    return <Redirect href="/" />;
-  }
-
   return (
     <Tabs
       screenOptions={{
