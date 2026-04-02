@@ -1,4 +1,6 @@
-# chorder
+# Chorder
+
+Our prototype is a mobile app built using react native filled with mock data. Our group used expo, an open-source react native framework to efficiently build the prototype.
 
 ## Team
 
@@ -10,6 +12,8 @@
 - Karim Mawji - 40281154
 
 ## Get started
+
+This project requires node to be installed.
 
 1. Clone this repo:
 
@@ -38,7 +42,7 @@ In the output, you'll find options to open the app in a
 
 ## Learn more
 
-To learn more about developing your project with Expo, look at the following resources:
+This project was built using Expo, to learn more about it, check out the following resources:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+- [Expo documentation](https://docs.expo.dev/)
+- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/)
